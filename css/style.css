@@ -9,10 +9,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    letter-spacing: 4px;
+    font-family: 'Quattrocento', sans-serif;
 }
 
 .about-me-container {
@@ -35,9 +38,7 @@ body {
 }
 
 
-.music-container {
- 
-}
+.music-container {}
 
 .gallery-container {}
 
@@ -71,9 +72,37 @@ h3 {
 .blockquote {
     margin-top: 11rem;
     font-family: 'Raleway', sans-serif;
+    z-index: 1;
 }
 
 .quotes-container h4 {
     font-family: initial;
     letter-spacing: 4px
+}
+
+
+.jumbotron {
+    background-color: transparent;
+    padding-bottom: 190px;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+}
+
+/* --------- Nav Bar ---*/
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(11,4,22,1);
+    
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 20px;
 }
