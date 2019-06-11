@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing-container {
+    height: 95vh;
+    background: url(/assets/photos/Cormac.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-container {
+    height: 100vh;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2.4;
+}
+
+.quotes-container {
+    height: 80vh;
+    background: url(/assets/photos/acis-grayscale.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center
+}
+
+
+.music-container {
+ 
+}
+
+.gallery-container {}
+
+.contact-container {}
+
+
+
+img {
+    height: 300px;
+    float: left;
+    padding-right: 110px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 300;
+    letter-spacing: 4px;
+    line-height: 1.4;
+}
+
+@media (max-width: 450px) {
+    .about-me-container {
+        font-size: inherit;
+    }
+}
+
+
+.blockquote {
+    margin-top: 11rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.quotes-container h4 {
+    font-family: initial;
+    letter-spacing: 4px
+}
