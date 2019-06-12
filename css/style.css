@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*------------Landing image-------------*/
+
 .landing-container {
     height: 100vh;
     background: url(/assets/photos/Cormac.jpg) no-repeat center center fixed;
@@ -18,16 +20,47 @@ body {
     font-family: 'Quattrocento', sans-serif;
 }
 
+.jumbotron {
+    background-color: transparent;
+    padding-bottom: 190px;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+}
+
+
+
+/*----------About me Section ------------*/
+
 .about-me-container {
-    height: 90vh;
+
     text-align: left;
     font-size: 18px;
     font-weight: 300;
     line-height: 2;
 }
 
+.headshot {
+    height: 300px;
+    float: right;
+    padding-left: 110px;
+}
+
+@media (max-width: 450px) {
+    .about-me-container {
+        font-size: inherit;
+    }
+}
+
+.about-me-container p {
+    margin-bottom: 5px;
+}
+
+
+/*--------------Quotes Section--------------*/
+
 .quotes-container {
-    height: 90vh;
     background: url(/assets/photos/acis-grayscale.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -37,13 +70,32 @@ body {
     text-align: center
 }
 
-
-.music-container {
-    height: 90vh;
+.blockquote {
+    margin-top: 11rem;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
 }
 
+
+.quotes-container h4 {
+    font-family: initial;
+    letter-spacing: 4px
+}
+
+
+/*---------------Media Section --------------*/
+
+.music-container {}
+
+iframe {
+    padding: 10px;
+}
+
+
+/*----------Gallery Section-------------*/
+
 .gallery-container {
-    height: 90vh;
+
     background: url(/assets/photos/budd-dark.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -52,58 +104,36 @@ body {
     color: white;
 }
 
+/* -------Lightbox Gallery ------*/
 
-.contact-container {
-    height: 90vh;
+.w-100 {
+    padding: 10px;
 }
 
 
 
-.headshot {
-    height: 300px;
-    float: right;
-    padding-left: 110px;
+/*------------Contact Section--------------*/
+
+.contact-container {}
+
+
+
+/*------------ Contact form-------*/
+
+.center-form {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: rgb(11, 4, 22);
 }
 
 
 
-h3 {
-    text-align: center;
-    font-family: 'raleway', sans-serif;
-    font-size: 60px;
-    font-style: bold;
-    font-weight: 300;
-    letter-spacing: 4px;
-    line-height: 1.4;
-}
-
-@media (max-width: 450px) {
-    .about-me-container {
-        font-size: inherit;
-    }
-}
-
-
-.blockquote {
-    margin-top: 11rem;
-    font-family: 'Raleway', sans-serif;
-    z-index: 1;
-}
-
-.quotes-container h4 {
-    font-family: initial;
-    letter-spacing: 4px
-}
-
-
-.jumbotron {
-    background-color: transparent;
-    padding-bottom: 190px;
-}
-
-.jumbotron h1 {
-    font-size: 55px;
-}
 
 /* --------- Nav Bar ---*/
 
@@ -125,23 +155,58 @@ h3 {
 
 
 
-.about-me-container p {
-    margin-bottom: 5px;
+/*--------------General Text formatting-------------*/
+
+h3 {
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    line-height: 1.4;
 }
 
 
 
+/*-------------Footer------------*/
 
-/* -------Lightbox Gallery ------*/
-
-.w-100 {
-    padding: 10px;
+footer {
+    border-color: transparent;
+    text-align: center;
+    background-color: rgb(11,4,22);
+    padding: 15px;
 }
 
 
-
-
-
-iframe {
-    padding: 10px;
+a {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: transparent;
 }
+
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #fafafa;
+    color: #1a0666;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+
+}
+
