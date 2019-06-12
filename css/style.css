@@ -1,3 +1,5 @@
+html, body { overflow-x: hidden; }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -61,6 +63,7 @@ body {
 /*--------------Quotes Section--------------*/
 
 .quotes-container {
+    height: 80vh;
     background: url(/assets/photos/acis-grayscale.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,7 +98,7 @@ iframe {
 /*----------Gallery Section-------------*/
 
 .gallery-container {
-
+    height: 80vh;
     background: url(/assets/photos/budd-dark.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -173,7 +176,7 @@ h3 {
 footer {
     border-color: transparent;
     text-align: center;
-    background-color: rgb(11,4,22);
+    background-color: rgb(11, 4, 22);
     padding: 15px;
 }
 
@@ -210,3 +213,6 @@ i {
 
 }
 
+i:hover {
+    color: #14363d;
+}
