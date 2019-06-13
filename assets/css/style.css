@@ -109,6 +109,7 @@ iframe {
     background-attachment: scroll;
     background-size: cover;
     color: white;
+    overflow: auto;
 }
 
 /* -------Lightbox Gallery ------*/
