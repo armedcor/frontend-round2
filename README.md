@@ -1,4 +1,4 @@
-# Cormac Lawlor Operatic Baritone
+# **Cormac Lawlor Operatic Baritone**
 
 User-Centric Frontend Developent Project - Code Institute June 2019
 

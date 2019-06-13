@@ -58,7 +58,10 @@ body {
     padding-left: 110px;
 }
 
-
+#bio {
+    border-top: 60px solid transparent;
+    margin-top: -60px;
+}
 
 
 
@@ -88,7 +91,10 @@ body {
 
 /*---------------Media Section --------------*/
 
-.music-container {}
+#recordings {
+    border-top: 60px solid transparent;
+    margin-top: -60px;
+}
 
 iframe {
     padding: 10px;
@@ -111,6 +117,10 @@ iframe {
     padding: 10px;
 }
 
+#photos {
+    border-top: 60px solid transparent;
+    margin-top: -60px;
+}
 
 
 /*------------Contact Section--------------*/
