@@ -16,9 +16,9 @@ body {
 
 .landing-container {
     height: 100vh;
-    background: url(../photos/Cormac.jpg) no-repeat center center scroll;
+    background: url(../photos/Cormac.jpg) no-repeat center center;
     background-size: cover;
-
+    background-attachment: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +67,8 @@ body {
 
 .quotes-container {
     height: 80vh;
-    background: url(../photos/acis-grayscale.jpg) no-repeat center center scroll;
+    background: url(../photos/acis-grayscale.jpg) no-repeat center center;
+    background-attachment: scroll;
     background-size: cover;
     color: white;
     text-align: center
@@ -98,7 +99,8 @@ iframe {
 
 .gallery-container {
     height: 80vh;
-    background: url(../photos/budd-dark.jpg) no-repeat center center scroll;
+    background: url(../photos/budd-dark.jpg) no-repeat center center;
+    background-attachment: scroll;
     background-size: cover;
     color: white;
 }
