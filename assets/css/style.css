@@ -1,4 +1,12 @@
-html, body { overflow-x: hidden; }
+html {
+    scroll-behavior: smooth;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -43,21 +51,19 @@ body {
     line-height: 2;
 }
 
+.about-me-container p {
+    margin-bottom: 5px;
+}
+
 .headshot {
     height: 300px;
     float: right;
     padding-left: 110px;
 }
 
-@media (max-width: 450px) {
-    .about-me-container {
-        font-size: inherit;
-    }
-}
 
-.about-me-container p {
-    margin-bottom: 5px;
-}
+
+
 
 
 /*--------------Quotes Section--------------*/
@@ -73,6 +79,8 @@ body {
     text-align: center
 }
 
+
+
 .blockquote {
     margin-top: 11rem;
     font-family: 'Raleway', sans-serif;
@@ -80,10 +88,7 @@ body {
 }
 
 
-.quotes-container h4 {
-    font-family: initial;
-    letter-spacing: 4px
-}
+
 
 
 /*---------------Media Section --------------*/
@@ -151,6 +156,7 @@ iframe {
     border: 0;
     width: 100%;
     background-color: rgba(11, 4, 22, 0.75);
+    cursor: pointer;
 
 }
 
@@ -165,6 +171,7 @@ iframe {
 
 
 /*--------------General Text formatting-------------*/
+
 
 h3 {
     text-align: center;
@@ -221,4 +228,11 @@ i {
 
 i:hover {
     color: #14363d;
+}
+
+
+@media (max-width: 450px) {
+    .about-me-container {
+        font-size: inherit;
+    }
 }
