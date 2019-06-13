@@ -59,8 +59,8 @@ body {
 }
 
 #bio {
-    border-top: 60px solid transparent;
-    margin-top: -60px;
+    border-top: 65px solid transparent;
+    margin-top: -65px;
 }
 
 
@@ -92,8 +92,8 @@ body {
 /*---------------Media Section --------------*/
 
 #recordings {
-    border-top: 60px solid transparent;
-    margin-top: -60px;
+    border-top: 65px solid transparent;
+    margin-top: -65px;
 }
 
 iframe {
@@ -104,7 +104,7 @@ iframe {
 /*----------Gallery Section-------------*/
 
 .gallery-container {
-    height: 80vh;
+    height: 90vh;
     background: url(../photos/budd-dark.jpg) no-repeat center center;
     background-attachment: scroll;
     background-size: cover;
@@ -118,8 +118,8 @@ iframe {
 }
 
 #photos {
-    border-top: 60px solid transparent;
-    margin-top: -60px;
+    border-top: 65px solid transparent;
+    margin-top: -65px;
 }
 
 
