@@ -10,7 +10,7 @@ A live demo can be viewed [here](https://armedcor.github.io/frontend-round2/)
 
 ## UX
 
-My primary goal when I designed this website was to provide potential employers in the Arts world with a very brief and concise overview of my achievements to date within the operatic world.  I went with a single page scrolling website to allow users to access all information as easily as possible while reducing the need to move through separate pages.
+My primary goal when I designed this website was to provide potential employers in the Arts world with a very brief and concise overview of my achievements to date within the operatic world.  I went with a single page scrolling website to allow users to access all information as easily as possible while reducing the need to move through separate pages. I also have the option for the user to download my CV from the Navigation Bar should they want a traditional CV.
 
 I attempted to create a more minimalist design to give the website a very modern feel while removing any unnecessary content and button clicking. At the bottom of the page, I provided links to my Linkedin and Facebook page and also a downloadable PDF version of my CV for employers.
 
