@@ -122,15 +122,20 @@ iframe {
 
 /*------------Contact Section--------------*/
 
-.contact-container {}
+#email-me {
+    border-top: 95px solid transparent;
+    margin-top: -95px;
+}
+
+.contact-container {
+    height: 90vh
+}
 
 .form-control {
     border-width: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-/*------------ Contact form-------*/
 
 .center-form {
     margin: 0 auto;
