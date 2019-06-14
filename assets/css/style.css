@@ -16,7 +16,7 @@ body {
 
 .landing-container {
     height: 100vh;
-    background: url(../photos/cormac.jpg) no-repeat center center;
+    background: url(../photos/Cormac.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: scroll;
     display: flex;
@@ -84,11 +84,6 @@ body {
     font-family: 'Raleway', sans-serif;
     z-index: 1;
 }
-
-
-
-
-
 /*---------------Media Section --------------*/
 
 #recordings {
@@ -99,8 +94,6 @@ body {
 iframe {
     padding: 10px;
 }
-
-
 /*----------Gallery Section-------------*/
 
 .gallery-container {
@@ -110,6 +103,10 @@ iframe {
     background-size: cover;
     color: white;
     overflow: auto;
+}
+
+.gallery-container {
+    padding-bottom: 55px
 }
 
 /* -------Lightbox Gallery ------*/
