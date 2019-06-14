@@ -12,7 +12,7 @@ A live demo can be viewed [here](https://armedcor.github.io/frontend-round2/)
 
 My primary goal when I designed this website was to provide potential employers in the Arts world with a very brief and concise overview of my achievements to date within the operatic world.  I went with a single page scrolling website to allow users to access all information as easily as possible while reducing the need to move through separate pages.
 
-I attempted to create a more minimalist design to give the website a very modern feel while removing any unnecessory content and button clicking. At the bottom of the page I provided links to my Linkedin and Facebook page and also a downloadable PDF version of my CV for employers.
+I attempted to create a more minimalist design to give the website a very modern feel while removing any unnecessary content and button clicking. At the bottom of the page I provided links to my Linkedin and Facebook page and also a downloadable PDF version of my CV for employers.
 
 ## Technologies
 
@@ -27,7 +27,7 @@ The site has smooth scrolling implemented to allow a smooth transition to each n
 
 ## Features to Implement
 
-Set up to Contact form to link to a email server - Requires JavaScript
+Link Contact form to an email server - Requires JavaScript
 
 ## Testing
 
