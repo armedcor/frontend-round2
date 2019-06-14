@@ -68,7 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <span class="d-none d-md-block"><img class="headshot" src="assets/photos/Cormac323.jpg"
+                        <span class="d-none d-md-block"><img class="headshot" src="assets/photos/cormac323.jpg"
                                 alt="OTC Headshot"></span>
                         <p>Previously a member of the Northern Ireland Opera studio, Cormac also completed a term as a
                             Young Associated Artist with Opera Theatre Company in Dublin before going on to work with
@@ -250,17 +250,15 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
     <div class="container-fluid contact-container">
         <section class="contact">
             <div id="email-me">
-
                 <div class="row">
                     <div class="col-12 my-5">
                         <h3 class="text-uppercase">Contact</h3>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col">
                         <div class="center-form">
-                            <form>
+                            <form method="POST">
                                 <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
                                     required />
                                 <input type="tel" name="tel" id="phonenumber" class="form-control"
@@ -271,14 +269,13 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
                                     placeholder="Message" required></textarea>
                                 <div class="form-row text-center">
                                     <div class="col">
-                                        <button type="submit" class="btn btn-secondary">Send</button>
+                                        <button type="submit" value="send" class="btn btn-secondary">Send</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     </div>

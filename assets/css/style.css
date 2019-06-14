@@ -16,7 +16,7 @@ body {
 
 .landing-container {
     height: 100vh;
-    background: url(../photos/Cormac.jpg) no-repeat center center;
+    background: url(../photos/cormac.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: scroll;
     display: flex;
@@ -123,6 +123,10 @@ iframe {
     margin-top: -65px;
 }
 
+.modal-dialog {
+    max-width: 90%;
+    margin: auto;
+}
 
 /*------------Contact Section--------------*/
 
@@ -235,8 +239,23 @@ i:hover {
 }
 
 
+
+
 @media (max-width: 450px) {
     .about-me-container {
         font-size: inherit;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .modal-dialog {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .modal-dialog {
+        max-width: 900px;
     }
 }
