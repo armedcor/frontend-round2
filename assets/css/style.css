@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #fafafa;
     letter-spacing: 4px;
     font-family: 'Quattrocento', sans-serif;
 }
@@ -69,7 +69,7 @@ body {
     background: url(../photos/acis-grayscale.jpg) no-repeat center center;
     background-attachment: scroll;
     background-size: cover;
-    color: white;
+    color: #fafafa;
     text-align: center
 }
 
@@ -242,5 +242,23 @@ i:hover {
 @media (min-width: 1000px) {
     .modal-dialog {
         max-width: 900px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    #bio,
+    #recordings,
+    #photos {
+        border-top: 55px solid transparent;
+        margin-top: -55px;
+
+    }
+}
+
+@media (max-width: 575px) {
+    #email-me {
+        border-top: 85px solid transparent;
+        margin-top: -85px;
     }
 }
