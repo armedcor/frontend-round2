@@ -19,7 +19,7 @@ I attempted to create a more minimalist design to give the website a very modern
 1. HTML
 2. CSS
 3. Bootstrap (4.3)
-4 JQuery
+4  JQuery
 
 ## Features
 
