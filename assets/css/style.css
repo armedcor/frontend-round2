@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*------------Landing image-------------*/
@@ -48,6 +48,7 @@ body {
 
 .about-me-container p {
     margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .headshot {
@@ -76,7 +77,6 @@ body {
 
 .blockquote {
     margin-top: 11rem;
-    font-family: 'Raleway', sans-serif;
     z-index: 1;
 }
 
@@ -98,7 +98,7 @@ iframe {
     background: url(../photos/budd-dark.jpg) no-repeat center center;
     background-attachment: scroll;
     background-size: cover;
-    color: white;
+    color: #fafafa;
     overflow: auto;
 }
 
@@ -161,9 +161,8 @@ iframe {
 }
 
 .navbar li a {
-    color: white;
+    color: #fafafa;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
@@ -172,7 +171,6 @@ iframe {
 
 h3 {
     text-align: center;
-    font-family: 'raleway', sans-serif;
     font-size: 60px;
     font-weight: 300;
     letter-spacing: 4px;
