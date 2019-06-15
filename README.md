@@ -25,13 +25,6 @@ I attempted to create a more minimalist design to give the website a very modern
 
 The site has smooth scrolling implemented to allow a smooth transition to each nav link. The collapsed mobile nav bar also features a piece of JQuery script to allow it auto close once a user has clicked on a link improving the UX.
 
-## Features to Implement
-
-Link Contact form to an email server - Requires JavaScript
-Implement an extended Lightbox Photo Gallery - Requires JavaScript
-
-## Testing
-
 My user story achieved the intended outcome. The "About me" section details some of my career highlights to date while my "Media" and "Gallery" section showcase both myself and my work. Both the "About me" and "Quotes" sections contain some mobile responsive design to make for a cleaner more streamlined view. The headshot and one quote disappear.
 
 If you try submitting the contact form without a Name, Email address or message you will receive an error stating these fields are required. I left the Telephone number field as optional as I appreciate some user are not comfortable leaving a personal number. If all fields are valid the page will reload.
@@ -40,7 +33,16 @@ The CV in the footer downloads to the users default download folder on click, th
 
 A smooth scrolling effect was implemented with a CSS rule to allow the page to scroll to specific anchor points instead of giving a sudden jump motion.
 
-The site was tested using a number of different browsers, operating systems and across multiple mobile devices to ensure complete responsiveness and compatibility.
+
+## Features to Implement
+
+Link Contact form to an email server - Requires JavaScript
+Implement an extended Lightbox Photo Gallery - Requires JavaScript
+Implement auto close nav bar on mobile - Requires JavaScript
+
+## Testing
+
+The site was tested using a number of different browsers, operating systems and across multiple mobile devices (Chrome, Safari, Windows, Mac, Ios and Android) to ensure complete responsiveness and compatibility.
 While testing I found that the gallery Modal was not responsive and stuck at one size across all platforms. This was corrected using multiple media Queries.
 I also found that background images that had the attribute  `background-attachment: fixed` were zoomed-in and highly pixilated. This was corrected by adding the attribute `background-attachment: scroll` instead.
 
@@ -53,10 +55,6 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ## Credits
 
-### Content
-
-All content in the "About" section of this site was written by Cormac Lawlor.
-
 ### Media
 
 All photos on the site are the property of Cormac Lawlor. A darken filter was applied to the background images before uploading them onto the project to allow text to stand out more.
@@ -67,4 +65,4 @@ The footer code was taken from the Example project before been modified by mysel
 
 The script used to allow the navigation button to auto-collapse on mobile was taken from [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
 
-Thanks to all the users on the Code-Institute slack channel who helped me troubleshoot.
+Thanks to all the users on the Code-Institute slack channel who helped me troubleshoot and my mentor Sandeep Aggarwal for all the mid-project feedback.
